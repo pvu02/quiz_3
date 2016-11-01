@@ -1,0 +1,53 @@
+---
+title:  "6060 Quiz 3: RMarkdown"
+author: "Janie Vu"
+output:
+  pdf_document:
+    number_sections: yes
+    toc_depth: 3
+---
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(tidyverse)
+library(apaTables)
+
+```
+
+# Question 1
+
+The comparison for the correlation between A1 and C1 versus E1 and O1 was $\Delta r$ = -.01, 95% CI [-.11,.09], *N* = 759. The confidence interval is very wide, which suggests the difference between the two correlations (A1-C1 vs. E1-O1) to be a weak and negative relationship, a weak and positive relationship, or it can also suggest no difference between the correlations because the confidence interval captures the value 0. 
+
+
+# Question 2
+
+The comparison for the correlation between A1 and C1 versus A1 and E1 was $\Delta r$ = -.08, 95% CI [-.18,.02], *N* = 764. The confidence interval is very wide, which suggests the difference between the two correlations (A1-C1 vs. A1-E1) to be a medium and negative relationship, a very weak and positive relationship, or it can also suggest no difference between the correlations because the confidence interval captures the value 0. 
+
+# Question 3
+
+The comparison for the correlation between A1 and E1 for men versus women was $\Delta r$ = .02, 95% CI [-.13,.17], with *N* for men = 251 and *N* for women = 518. The confidence interval is very wide, which suggests the difference between the two correlations for the two groups (men vs. women) to be a medium and negative relationship, a medium and positive relationship, or it can also suggest no difference between the correlations because the confidence interval captures the value 0. 
+
+# Question 4
+
+The comparison for the correlation between ratings and raises versus raises and critical was $\Delta r$ = .43, 95% CI [.07,.97], *N* = 30. The confidence interval is very wide, which suggests the difference between the two correlations (ratings-raises vs. raises-critical) to be a very weak and positive relationship or a very strong and positive relationship. 
+
+
+# Question 5
+
+
+The comparison for the correlation between ratings and raises versus complaints and critical was $\Delta r$ *r* = .4, 95% CI [.01,.78], *N* = 30. The confidence interval is very wide, which suggests the difference between the two correlations (ratings-raises vs. complaints-critical) to be a very weak and positive relationship or a very strong and positive relationship. 
+
+
+# Question 6
+
+
+A comparison between the original rating-raises correlation (*r* = .59) and the replication study's rating-raises correlation (*r* = .03) found a difference between the two correlations such that $\Delta r$ = .56, 95% CI [.26,.76]. This suggests that these correlations did not result from the same sample population.
+
+
+# Question 7
+
+
+Based on the two studies described in question 6, it appears as though there is a weak, positive relationship between rating and raises. The replication study had a much larger sample size and produced an *r* value of .03, so this value is likely to be more representative of the actual population correlation than the *r* value extracted in the original study which had a small sample size (and large confidence interval around the *r* value).
+
